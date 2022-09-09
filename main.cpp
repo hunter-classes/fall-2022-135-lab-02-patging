@@ -14,15 +14,23 @@ higher inclusive
 
 int main() {
 
+	/* if you wanted user input
 	int l, u; // lower and upper bounds respectively
 
 	std::cout << "Please enter L: ";
 	std::cin >> l;
 
 	std::cout << "Please enter U: ";
-	std::cin >> u;
+	std::cin >> u; */
+ 
+ 	// tests
+	std::cout << "Interval from -1 to 10: ";
+	print_interval(-1, 10);
 
-	print_interval(l,u);
+	std::cout << std::endl << "Interval from 0 to 5: ";
+	print_interval(0, 5);	
 
+	std::cout << std::endl << "Interval from 1 to 1: ";
+	print_interval(1, 1);
 	return 0;
 }
